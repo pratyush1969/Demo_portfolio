@@ -1,0 +1,276 @@
+ @import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+
+ }
+
+ body {
+     background-color: rgb(14, 13, 12);
+   
+     overflow-y: auto;
+     background-size: cover;
+
+ }
+
+ #navbar img {
+     height: 3rem;
+     width: 3rem;
+     border-radius: 35px;
+ }
+
+ #navbar {
+     display: flex;
+     position: fixed;
+     width: 100%;
+     height: 70px;
+     color: white;
+     background-color: aqua;
+     align-items: center;
+
+
+ }
+
+ #navbar li {
+     list-style-type: none;
+     padding: 10px;
+ }
+
+ #navbar li a {
+     text-decoration: none;
+     color: black;
+     font-family: 'Prosto One', cursive;
+ }
+
+ #navbar li a:hover {
+     text-decoration: underline;
+ }
+
+ #navbar li img:hover {
+     transform: rotateY(360deg);
+     transition: 2s;
+ }
+
+ .container {
+     position: absolute;
+     top: 194px;
+     left: 15%;
+     height: 50%;
+     width: 70%;
+     background-color: aqua;
+     box-shadow: 10px 10px 10px grey;
+     display: flex;
+     font-family: 'Prosto One', cursive;
+     padding: 10px;
+     z-index: -1;
+     border-radius: 10px;
+ }
+
+ .container #home img {
+     height: 100px;
+     width: 100px;
+     border-radius: 50px;
+ }
+
+ .container #home span {
+     color: whitesmoke
+ }
+
+ .container #home #wings {
+     width: 100%;
+     height: 40%;
+     position: relative;
+     left: 21px;
+
+ }
+
+ .container1 {
+     position: absolute;
+     top: 674px;
+     left: 10%;
+     height: 50%;
+     width: 80%;
+     background-color: aqua;
+     box-shadow: 10px 10px 10px grey;
+     display: flex;
+     font-family: 'Prosto One', cursive;
+     padding: 20px;
+     z-index: -1;
+     border-radius: 10px;
+
+ }
+
+ .box1 {
+     border: 2px solid black;
+     padding: 10px;
+     margin: 5px;
+ }
+
+ .btn1 {
+     padding: 5px;
+     font-size: larger;
+     margin-top: 10px;
+     margin-left: 28%;
+     border-radius: 20px;
+     background-color: black;
+     color: white;
+
+ }
+
+ .container1 .box1 i {
+     position: relative;
+     left: 183px;
+
+ }
+
+ .box1:hover {
+     background-color: white;
+     color: rgb(13, 12, 12);
+     transition: 2s;
+ }
+
+ .btn1:hover {
+     transform: scale(1.2);
+     cursor: pointer;
+     transition: 2s;
+ }
+
+
+ .container3 {
+     position:relative;
+     top: 166px;
+     left: 0;
+     background-color: white;
+     width: 100%;
+     height: auto;
+     z-index: -1;
+     display: flex;
+     padding: 5px;
+     border-radius: 10px;
+
+ }
+
+ .container3 .head1 {
+     margin-left: 130px;
+ }
+
+ .container3 .doogee li {
+     list-style-type: none;
+     padding: 10px;
+     margin-left: 130px;
+
+ }
+
+ .container3 .head2 {
+     margin-left: 150px;
+ }
+
+ .container3 .social li {
+
+     list-style-type: none;
+     padding: 10px;
+     margin-left: 140px;
+
+ }
+
+ .container3 .head3 {
+     margin-left: 170px;
+ }
+
+ .container3 .service li {
+
+     list-style-type: none;
+     padding: 10px;
+     margin-left: 160px;
+
+ }
+ .icons{
+    display:flex;
+    height:50px;
+
+ }
+ .fa-facebook{
+    position: relative;
+    top: 95px;
+    left: 83px;
+    padding-left: 101px;
+    cursor: pointer;
+    width:14px;
+ }
+ .fa-instagram{
+    position: relative;
+    top: 95px;
+    left: 83px;
+    padding-left: 101px;
+    cursor: pointer;
+    width:14px;
+ }
+ .fa-twitter{
+    position: relative;
+    top: 95px;
+    left: 83px;
+    padding-left: 101px;
+    cursor: pointer;
+    width:14px;
+ }
+ .fa-linkedin{
+    position: relative;
+    top: 95px;
+    left: 83px;
+    padding-left: 101px;
+    cursor: pointer;
+    width:14px;
+ }
+ .fa-youtube{
+    position: relative;
+    top: 95px;
+    left: 83px;
+    padding-left: 101px;
+    cursor: pointer;
+    width:14px;
+ }
+ .slide{
+   display: inline-flex;
+    background-color: aqua;
+    position:relative;
+    margin-top:1200px;
+    margin-left:100px;
+   /* transform: translateX(-50%);*/
+   z-index: -1;
+    overflow: hidden;
+    width: 90%;
+    height:500px;
+    
+ }
+  #slider{
+    width:100%;
+    display:inline-flex ;
+    transition: 0.7s;
+   
+ }
+ #slider img{
+    width: 100%;
+    height: 100%;
+    
+ }
+ .indicators{
+    background-color: rgb(203, 215, 215);
+    height:20px;
+    width:145px;
+    position:relative;
+    top:20px;
+    left:50%;
+ }
+ .indicators span{
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    margin-left:10px;
+    border-radius: 50%;
+    background-color: rgb(145, 13, 13);
+    cursor: pointer;
+ }
+ .indicators span:hover{
+    background-color: aqua;
+ }
